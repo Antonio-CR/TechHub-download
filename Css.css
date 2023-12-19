@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+body{
+    background: url(—Pngtree—abstract\ background\ technology\ of\ data_1316468.png);
+   
+}
+
+#sidebar {
+    position: fixed;
+    top: 0;
+    right: -250px; /* Defina o valor inicial para o menu estar escondido */
+    width: 250px;
+    height: 100%;
+    background-color: #6480ea;
+    transition: right 0.3s ease-in-out;
+  }
+  
+  #sidebar ul {
+    padding: 0;
+    margin: 50px 0;
+    list-style: none;
+  }
+  
+  #sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+  #sidebar ul li a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20pt;
+  }
+
+  #sidebar ul li a:hover{
+    color: #0025b0 ;
+
+  }
+  
+  #content {
+    margin-right: 250px; /* Ajusta o conteúdo para dar espaço ao menu quando estiver visível */
+    /* Adicione estilos adicionais para o conteúdo principal conforme necessário */
+  }
+
+  footer {
+    background-color: #6480ea;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 100%;
+  }
+  footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  footer ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  footer ul li a {
+    color: #fff;
+    text-decoration: none;}
+
+    
+    #botão{
+        margin-top: 200px;
+        margin-left: 100px;
+        box-shadow: 0 0 5px cyan, 
+        0px 0px 25px cyan;
+        border-radius: 50px;
+       
+    }
+
+    #botão:hover{
+      box-shadow: 0px 0px 5px cyan,
+      0px 0px 25px cyan,
+      0px 0px 50px cyan, 0px 0px 100px cyan,
+      0px 0px 200px cyan
+
+      ;
+    }
+
+    #botão a{
+      color: #6480ea;
+      text-decoration: none;
+      font-size: 20px;
+    }
